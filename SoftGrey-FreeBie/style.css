@@ -1,0 +1,226 @@
+/* common */
+body,html{
+    font-family: 'Lato', sans-serif
+}
+p{
+    font-size: 14px
+}
+a{
+    color: #000
+}
+@media (max-width: 680px) {
+    .mac-pro{
+        width: 90%
+    }
+}
+@media (max-width: 768px) {
+    .the-new{
+        font-size: 190%
+    }
+    .libro{
+        font-size: 190%
+    }
+    .elite{
+        font-size: 190%
+    }
+}
+@media  (max-width: 990px) {
+    ul .number{
+        width: 126px
+    }
+    .nav-brand h3{
+        font-size: 20px
+    }
+    .section-2 .col-lg-6{
+        padding-top: 0px !important
+    }
+}
+/* end common */
+/* animation */
+@keyframes color{
+    0%{
+        background-color: #c9c9c9
+    }
+    100%{
+        background-color: rgb(233, 118, 118)
+    }
+}
+@keyframes show{
+    0%{
+        opacity: 0
+    }
+    100%{
+        opacity: 1
+    }
+}
+/* end animation */
+/* nav */
+nav ul a{
+    font-size: 14px;
+}
+.nav-brand:hover{
+    animation-name: color;
+    animation-duration: 1.5s;
+    border-radius: 10px;
+    text-decoration: none !important
+}
+nav li:hover{
+    animation-name: color;
+    animation-duration: 1.5s;
+    border-radius: 5px;
+    transform: scale(1.05)
+}
+/* end nav */
+/* jumbotron */
+.jumbotron {
+    background-color: #484848
+}
+.jumbotron p{
+    animation-name: show;
+    animation-duration: 4s;
+    font-size: 20px;
+    padding-bottom: 20px
+}
+.jumbotron h2{
+    animation-name: show;
+    animation-duration: 2s;
+    padding-top: 110px
+}
+/* end jumbotron */
+/* section-1 */
+.section-1 h5{
+    margin-bottom: 1.5em
+}
+.section-1 .icon{
+    background-image: url("image/all-icon.png");
+    background-repeat: no-repeat;
+    background-color: #3498db;
+    border-radius: 50%;
+    height: 110px;
+    margin-top: 60px;
+    margin-bottom: 1em;
+    width: 110px
+}
+section .icon-consulting{
+    background-position: 12px 23px
+}
+section .icon-dev{
+    background-position: 12px -66px
+}
+.icon-design{
+    background-position: -109px -64px
+}
+.icon-analysis{
+    background-position: -98px 26px
+}
+.section-1 .text-center{
+    margin-bottom: 60px;
+}
+/* end section-1 */
+/* section-2 */
+.section-2{
+    background: #e5e5e5
+}
+.section-2 .col-lg-5,.section-2 .col-lg-6{
+    margin-bottom: 40px;
+    padding-top: 90px
+}
+.text-bot{
+    font-size: 18px
+}
+.section-2 .article-bot a{
+    font-size: 12px
+}
+.section-2 .article-bot h2{
+    padding-bottom: 170px;
+    padding-top: 7px
+}
+.card{
+    border: 1px solid #fff
+}
+.section-2 .card:hover{
+    background-color: #000
+}
+.section-2 .card:hover a{
+    color: #fff
+}
+.section-2 .card:hover h2{
+    color: #fff
+}
+.section-2 .article-bot{
+    padding-bottom: 60px
+}
+
+/* end-section-2 */
+
+/* section3 */
+.section-3{
+    background-color: #eee
+}
+.content-section-3 span{
+    border-left: 1px solid #fff;
+    color: #626262;
+    font-size: 12px;
+    padding-left: 7px;
+    position: absolute;
+    top: 4px
+}
+.content-section-3 h2{
+    margin-bottom: 30px;
+    font-size: 18px
+}
+.content-section-3 h4 a{
+    color: #3498db;
+    font-size: 18px
+}
+.content-section-3 p{
+    font-size: 14px
+}
+.date{
+    background-color: #878787;
+    height: 26px;
+    position: absolute;
+    top: 181px;
+    width: 134px
+}
+.date a{
+    font-size: 14px
+}
+.date:hover{
+    background: yellowgreen
+}
+.section-3 .progress-bar{
+    background: #fafafa;
+    height: 5px;
+    position: absolute;
+    top: 32px;
+    width: 18%
+}
+/* ===============end-section-3============ */
+/* ================footer================== */
+footer{
+    background-color: #c9c9c9
+}
+footer .col-lg-2 h3{
+    font-size: 18px
+}
+footer .col-lg-4 h3{
+    font-size: 14px
+}
+address,footer ul a{
+    color: #626262;
+    font-size: 14px
+}
+footer input{
+    border: 1px solid #fff;
+    height: 33px;
+    width: 235px
+}
+.follow-us{
+    margin-top: 40px
+}
+footer .icon{
+    height: 32px;
+    width: 32px
+}
+
